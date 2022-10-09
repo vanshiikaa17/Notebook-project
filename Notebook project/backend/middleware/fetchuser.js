@@ -1,7 +1,5 @@
 var jwt=require('jsonwebtoken');
 
-const JWT_SECRET="theshipssailing@9006787";
-
 const fetchuser=(req,res,next)=>{
     //Get user from the jwt token 
     const token=req.header('authToken');
@@ -10,7 +8,7 @@ const fetchuser=(req,res,next)=>{
 
     }
     try{
-        const data=jwt.verify(token, JWT_SECRET);
+        const data=jwt.verify(token, process.env.JWT_SECRET);
 
         //adding the user to req
         req.user=data.user;
