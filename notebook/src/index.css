@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181f2f;
+  color: white;
+}
+.navCSS{
+  color:white;
+}
+.notesCSS {
+width:67%;
+margin-left: 1rem;
+
+}
+.notesCSS2 {
+width:35%;
+margin-right: 1rem;
+}
+.cardtext {
+  color: black;
+}
+.modalCSS {
+  color: #181f2f;
+ 
+}
+/* .navbarCss{ */
+/* background-color: #181f2f; */
+/* color: white !important; */
+
+/* } */
+
+
+i {
+  cursor: pointer;
+  color: #181f2f;
+}
+i:hover {
+  color: #7788af;
+}
+.trash:hover{
+  color: #dc3545;
+
+}
+.loginCSS {
+  width: 39%;
+  font-size: 1.4rem;
+  /* margin-top: 6rem; */
+
+  padding: 3rem 2rem;
+}
+.signCSS {
+  width: 39%;
+  font-size: 1.4rem;
+  /* margin-top: 6rem; */
+
+  padding: 3rem 2rem;
+}
+.btnCSS {
+  background-color: #181f2f;
+}
+.btnCSS:hover {
+  background-color: #324063;
+  color: white;
+  /* border-color: #181f2f; */
+}
+.heading{
+font-size: 3.14rem;
+}
+.footer{
+  height: 2rem;
+  text-align: center;
+  
+  margin-bottom: 0.71rem;
+}
+.btnCSS2:hover{
+  background-color:#aeb3bd;
+}
+.NotesView{
+  display: flex;
+  flex-direction: row;
+}
+.landingpage{
+  display: flex;
+  flex-direction: row;
+}
+.welcome{
+  font-family: 'Bad Script', cursive;
+}
+@media only screen and (max-width: 1000px) {
+  .NotesView {
+    display: flex;
+  flex-direction: column;
+  }
+  .notesCSS {
+    width:100%;
+    /* margin: 1rem; */
+    
+    }
+    .notesCSS2 {
+    width:100%;
+    /* margin: 1rem; */
+    }
+    .landingpage{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .loginCSS, .signCSS{
+      width: 100%;
+    }
+}
